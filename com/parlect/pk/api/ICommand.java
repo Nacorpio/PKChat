@@ -31,12 +31,6 @@ public interface ICommand {
 	 * @param par1 the client.
 	 * @param par2 the arguments.
 	 */
-	void execute(IClient par1, String... par2);
-	
-	/**
-	 * Occurs when the command is executed.
-	 * @param par1 the client.
-	 */
-	void execute(IClient par1);
+	void execute(int par1, String... par2);
 	
 }
